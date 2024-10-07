@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TopMenu Grid</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .top-menu {
+            display: grid;
+            grid-template-columns: 1fr auto;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #f8f8f8;
+            border-bottom: 1px solid #ccc;
+        }
+        .menu-items {
+            display: flex;
+            gap: 20px;
+        }
+        .menu-item {
+            text-decoration: none;
+            color: black;
+        }
+        .actions {
+            display: flex;
+            gap: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-menu">
+        <div class="menu-items">
+            <a href="#" class="menu-item">Rao vặt</a>
+            <a href="#" class="menu-item">Tư vấn</a>
+            <a href="#" class="menu-item">Hỏi đáp</a>
+            <a href="#" class="menu-item">Hỗ trợ</a>
+        </div>
+        <div class="actions">
+            <a href="#">Giỏ hàng</a>
+            <a href="#">Đăng ký</a>
+            <a href="#">Đăng nhập</a>
+        </div>
+    </div>
+</body>
+</html>
